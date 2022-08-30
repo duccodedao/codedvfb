@@ -1,0 +1,277 @@
+# Bảo vệ file .htaccess
+<files .htaccess="">
+order allow,deny
+deny from all
+</files>
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+#TrangChu
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^/$ /index.php [L]
+RewriteRule ^home$ /home.php [L]
+RewriteRule ^change-password/$ account/Auth-Account.php [L]
+RewriteRule ^Change-Password$ account/Auth-Account.php [L]
+RewriteRule ^Forgot-Password$ account/Auth-Account.php [L]
+RewriteRule ^Login$ account/Auth-Account.php [L]
+RewriteRule ^Active$ account/Auth-Account.php [L]
+RewriteRule ^Auth-OTP$ account/Auth-Account.php [L]
+RewriteRule ^Logout$ account/Logout.php [L]
+RewriteRule ^Register$ account/Auth-Account.php [L]
+RewriteRule ^Thong-Ke$ account/Statistical.php [L]
+RewriteRule ^Tao-Site-Con$ account/Create-Site.php [L]
+RewriteRule ^api/account/login$ auth/account/login.php [L]
+RewriteRule ^api/account/otp$ auth/account/otp.php [L]
+RewriteRule ^api/account/register$ auth/account/register.php [L]
+RewriteRule ^api/account/forgot-password$ auth/account/forgot-password.php [L]
+RewriteRule ^api/auth$ auth/_auth_check.php [L]
+RewriteRule ^Historie$ account/History-Profile.php  [L]
+RewriteRule ^api/them-api$ auth/api/api.php [L]
+
+RewriteRule ^api/active$ auth/active/active.php [L]
+RewriteRule ^BAND-IP$ pages/error_band.php [L]
+RewriteRule ^cronmomo$ auth/nap-tien/@MomoNHQ/cron.php
+RewriteRule ^auto$ class/mobile_tect.php [L]
+
+
+
+RewriteRule ^auth/logout$ account/Logout.php [L]
+RewriteRule ^auto$ class/mobile_tect.php [L]
+RewriteRule ^Profile$ account/Profile.php [L]
+RewriteRule ^api/change-token$ auth/Setting_User.php [L]
+RewriteRule ^api/change-pass$ auth/Setting_User.php [L]
+RewriteRule ^Bank$ /nap-tien/Nap-Bank.php
+RewriteRule ^Nap-The$ nap-tien/Nap-The.php [L]
+RewriteRule ^api/napthe$ auth/nap-tien/Nap-The.php [L]
+RewriteRule ^Nang-Cap$ account/Upgrade.php [L]
+RewriteRule ^api/upgrade-level$ auth/Setting_User.php [L]
+RewriteRule ^FindIDFB$ service/tools/getidfb.php [L]
+RewriteRule ^api/IDFB$ auth/tools/get_uidfb.php [L]
+RewriteRule ^Get-FaCode$ service/tools/get2fa.php [L]
+RewriteRule ^Api-DichVu$ landing/api.php [L]
+RewriteRule ^Code-Api-Mau$ landing/code.php [L]
+RewriteRule ^api/ho-tro$ auth/ho-tro/hotro.php [L]
+RewriteRule ^api/tool/get-uid-fb$ auth/tools/id.php [L]
+RewriteRule ^dich-vu/facebook/cmt-sale$ service/facebook/cmt.php [L]
+RewriteRule ^Tao-Ho-Tro$ account/CreateSupport.php [L]
+RewriteRule ^dich-vu/facebook/like-post$ service/facebook/like-post.php [L]
+RewriteRule ^dich-vu/facebook/like-post-sale$ service/facebook/like-post.php [L]
+RewriteRule ^dich-vu/facebook/cx-post$ service/facebook/cx-post.php [L]
+RewriteRule ^dich-vu/facebook/sub-sale$ service/facebook/sub.php [L]
+RewriteRule ^dich-vu/facebook/sub-speed$ service/facebook/sub.php [L]
+RewriteRule ^dich-vu/facebook/sub-vip$ service/facebook/sub.php [L]
+RewriteRule ^dich-vu/facebook/sub-quality$ service/facebook/sub.php [L]
+RewriteRule ^dich-vu/facebook/cmt$ service/facebook/cmt.php [L]
+RewriteRule ^dich-vu/facebook/like-page-sale$ service/facebook/like-page.php [L]
+RewriteRule ^dich-vu/facebook/like-page-speed$ service/facebook/like-page.php [L]
+RewriteRule ^dich-vu/facebook/like-page-quality$ service/facebook/like-page.php [L]
+RewriteRule ^dich-vu/facebook/vip-like$ service/facebook/vip-like.php [L]
+RewriteRule ^dich-vu/facebook/vip-like/list$ service/facebook/list_sub_vip.php [L]
+
+
+RewriteRule ^dich-vu/facebook/share-sale$ service/facebook/share.php [L]
+RewriteRule ^dich-vu/facebook/share$ service/facebook/share.php [L]
+RewriteRule ^dich-vu/facebook/mat-live$ service/facebook/mat-live.php [L]
+RewriteRule ^dich-vu/facebook/view-video$ service/facebook/view-video.php [L]
+RewriteRule ^dich-vu/facebook/like-cmt$ service/facebook/like-cmt.php [L]
+RewriteRule ^dich-vu/facebook/view-story$ service/facebook/view-story.php [L]
+RewriteRule ^Admin-Website$ admin/index.php [L]
+RewriteRule ^dich-vu/facebook/mem-group$ service/facebook/mem_gr.php [L]
+RewriteRule ^dich-vu/facebook/mem-group/list$ service/facebook/list_sub_vip.php [L]
+
+
+RewriteRule ^Admin-Thesieure$ admin/Edit_Cookie_TSR.php [L]
+RewriteRule ^Admin-Mbbank$ admin/Edit_Account_Mbbank.php [L]
+RewriteRule ^Admin-Momo$ admin/NHQ_Setting_Account_Momo.php [L]
+RewriteRule ^api/Admin-Momo-Ajax$ auth/nap-tien/@MomoNHQ/login.php [L]
+
+RewriteRule ^dich-vu/twitter/like$ service/twitter/twitter.php [L]
+RewriteRule ^dich-vu/twitter/sub$ service/twitter/twitter.php [L]
+RewriteRule ^dich-vu/twitter/like/list$ service/twitter/list_twitter.php [L]
+RewriteRule ^dich-vu/twitter/sub/list$ service/twitter/list_twitter.php [L]
+
+RewriteRule ^Setting_Noti_Modal$ admin/Setting-NotificationModal.php [L]
+RewriteRule ^Setting_Site$ admin/Setting-SiteCon.php [L]
+RewriteRule ^Setting_Website$ admin/Setting-Website.php [L]
+RewriteRule ^Setting_User$ admin/Setting-User.php [L]
+RewriteRule ^Setting_Noti$ admin/Setting-ThongBao.php [L]
+RewriteRule ^Setting_Nap$ admin/Setting-NapTien.php [L]
+RewriteRule ^Setting_Nap-Tien$ admin/Setting-DSNapTien.php [L]
+RewriteRule ^Setting_Don$ admin/Setting-DonHang.php [L]
+RewriteRule ^Setting_Service$ admin/Setting-DichVu.php [L]
+RewriteRule ^Setting_Auto$ admin/Setting_Auto.php [L]
+RewriteRule ^Setting_Admin$ admin/Setting-Admin.php [L]
+RewriteRule ^Setting_Themes admin/Setting-Themes.php [L]
+RewriteRule ^Danh_Sach_Api$ admin/List-API.php [L]
+RewriteRule ^Band_IP$ admin/Band_IP.php [L]
+
+RewriteRule ^Setting_Config_Website$ admin/Config-Admin.php [L]
+RewriteRule ^List_Ho_Tro$ admin/Setting-Support.php [L]
+RewriteRule ^dich-vu/facebook/like-page-speed/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/like-page-quality/list$ service/facebook/list_sub_vip.php [L]
+
+
+RewriteRule ^api/facebook/buy$ auth/service/facebook/facebook.php [L]
+RewriteRule ^dich-vu/instagram/cmt$ service/instagram/instagram.php [L]
+RewriteRule ^dich-vu/instagram/like$ service/instagram/instagram.php [L]
+RewriteRule ^dich-vu/instagram/follow$ service/instagram/instagram.php [L]
+
+RewriteRule ^dich-vu/tiktok/cmt$ service/tiktok/tiktok.php [L]
+RewriteRule ^dich-vu/tiktok/like$ service/tiktok/tiktok.php [L]
+RewriteRule ^dich-vu/tiktok/follow$ service/tiktok/tiktok.php [L]
+RewriteRule ^dich-vu/youtube/like/list$ service/youtube/list_youtube.php [L]
+RewriteRule ^dich-vu/youtube/sub/list$ service/youtube/list_youtube.php [L]
+
+RewriteRule ^dich-vu/tiktok/share$ service/tiktok/tiktok.php [L]
+RewriteRule ^dich-vu/tiktok/view$ service/tiktok/tiktok.php [L]
+RewriteRule ^dich-vu/youtube/like$ service/youtube/youtube.php [L]
+RewriteRule ^dich-vu/youtube/sub$ service/youtube/youtube.php [L]
+
+
+RewriteRule ^api/admin/setting/website$ auth/admin/SETTING_WEBSITE.PHP [L]
+RewriteRule ^api/admin/setting/website-2$ auth/admin/SETTING_ADD_DICHVU.php [L]
+RewriteRule ^api/admin/setting/website-3$ auth/admin/SETTING_WEBSITE_1.PHP [L]
+
+RewriteRule ^api/admin/service/quanly/facebook/addserver$ auth/admin/_add_server.php [L]
+
+RewriteRule ^api/instagram/buy$ auth/service/instagram/instagram.php [L]
+RewriteRule ^api/tiktok/buy$ auth/service/tiktok/tiktok.php [L]
+
+RewriteRule ^api/youtube/buy$ auth/service/youtube/youtube.php [L]
+RewriteRule ^api/twitter/buy$ auth/service/twitter/twitter.php [L]
+RewriteRule ^api/facebook/now$ auth/service/facebook/facebook_api.php [L]
+RewriteRule ^api/tiktok/now$ auth/service/tiktok/tiktok_api.php [L]
+RewriteRule ^api/instagram/now$ auth/service/instagram/instagram_api.php [L]
+RewriteRule ^api/youtube/now$ auth/service/youtube/youtube_api.php [L]
+
+RewriteRule ^dich-vu/facebook/like-post-sale/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/like-post/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/cx-post/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/sub-sale/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/cmt/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/like-page-sale/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/share/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/mat-live/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/view-story/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/like-cmt/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/cmt-sale/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^auth/logout$ index.php [L]
+RewriteRule ^dich-vu/facebook/share-sale/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/sub-speed/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/sub-quality/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/sub-vip/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/facebook/view-video/list$ service/facebook/list_sub_vip.php [L]
+RewriteRule ^dich-vu/instagram/like/list$ service/instagram/list_instagram.php [L]
+RewriteRule ^dich-vu/instagram/follow/list$ service/instagram/list_instagram.php [L]
+RewriteRule ^dich-vu/instagram/cmt/list$ service/instagram/list_instagram.php [L]
+
+
+RewriteRule ^dich-vu/tiktok/view/list$ service/tiktok/list_tiktok.php [L]
+RewriteRule ^dich-vu/tiktok/share/list$ service/tiktok/list_tiktok.php [L]
+RewriteRule ^dich-vu/tiktok/like/list$ service/tiktok/list_tiktok.php [L]
+RewriteRule ^dich-vu/tiktok/follow/list$ service/tiktok/list_tiktok.php [L]
+RewriteRule ^dich-vu/tiktok/cmt/list$ service/tiktok/list_tiktok.php [L]
+RewriteRule ^bao-tri$ landing/baotri.php [L]
+RewriteRule ^bao_tri$ landing/baotri.php [L]
+RewriteRule ^Band$ landing/band.php [L]
+
+
+
+RewriteRule ^private/cron/momo$ auth/nap-tien/@MomoNHQ/cron.php [L]
+RewriteRule ^private/cron/mbbank$ auth/nap-tien/@MbbankNHQ/cron.php [L]
+RewriteRule ^private/cron/tsr$ auth/nap-tien/Thesieure/cron.php [L]
+
+
+RewriteRule ^private/mbbank/balance$ auth/nap-tien/@MbbankNHQ/balance.php [L]
+
+ErrorDocument 404 /landing/404.php
+
+
+
+#BLOCKBOT
+RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ChinaClaw [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Custo [OR]
+RewriteCond %{HTTP_USER_AGENT} ^DISCo [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Download\ Demon [OR]
+RewriteCond %{HTTP_USER_AGENT} ^eCatch [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EirGrabber [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EmailWolf [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Express\ WebPictures [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ExtractorPro [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EyeNetIE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^FlashGet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GetRight [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GetWeb! [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Go!Zilla [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Go-Ahead-Got-It [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GrabNet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Grafula [OR]
+RewriteCond %{HTTP_USER_AGENT} ^HMView [OR]
+RewriteCond %{HTTP_USER_AGENT} HTTrack [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Stripper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Sucker [OR]
+RewriteCond %{HTTP_USER_AGENT} Indy\ Library [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^InterGET [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Internet\ Ninja [OR]
+RewriteCond %{HTTP_USER_AGENT} ^JetCar [OR]
+RewriteCond %{HTTP_USER_AGENT} ^JOC\ Web\ Spider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^larbin [OR]
+RewriteCond %{HTTP_USER_AGENT} ^LeechFTP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mass\ Downloader [OR]
+RewriteCond %{HTTP_USER_AGENT} ^MIDown\ tool [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mister\ PiX [OR]
+RewriteCond %{HTTP_USER_AGENT} uuuu7u^Navroad [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NearSite [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetAnts [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetSpider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Net\ Vampire [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetZIP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Octopus [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Explorer [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Navigator [OR]
+RewriteCond %{HTTP_USER_AGENT} ^PageGrabber [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Papa\ Foto [OR]
+RewriteCond %{HTTP_USER_AGENT} ^pavuk [OR]
+RewriteCond %{HTTP_USER_AGENT} ^pcBrowser [OR]
+RewriteCond %{HTTP_USER_AGENT} ^RealDownload [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ReGet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SiteSnagger [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SmartDownload [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SuperBot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SuperHTTP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Surfbot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^tAkeOut [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Teleport\ Pro [OR]
+RewriteCond %{HTTP_USER_AGENT} ^VoidEYE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Image\ Collector [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Sucker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebAuto [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebCopier [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebFetch [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebGo\ IS [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebLeacher [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebReaper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebSauger [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Website\ eXtractor [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Website\ Quester [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebStripper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebWhacker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebZIP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Wget [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Widow [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WWWOFFLE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Zeus
+RewriteRule ^.* - [F,L]
+
+RewriteCond %{HTTP_HOST} ^info247\.ml$
+RewriteRule ^/?$ "https\:\/\/cc\.ml\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^taile\.ml$
+RewriteRule ^/?$ "https\:\/\/kk\.ml\/" [R=301,L]
+
+
+

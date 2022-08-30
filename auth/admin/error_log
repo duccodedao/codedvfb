@@ -1,0 +1,56 @@
+[28-Jan-2022 00:35:50 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 00:35:52 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 00:35:52 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 00:35:53 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 00:35:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 00:35:56 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 00:35:57 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 00:35:58 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 00:35:59 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 184
+[28-Jan-2022 01:25:58 UTC] PHP Parse error:  syntax error, unexpected '$theme_color' (T_VARIABLE) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 47
+[28-Jan-2022 01:26:01 UTC] PHP Parse error:  syntax error, unexpected '$theme_color' (T_VARIABLE) in /home/nguyenti35/public_html/auth/admin/SETTING_WEBSITE.PHP on line 47
+[15-May-2022 15:47:43 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 15:47:47 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 15:47:48 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 15:47:49 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 15:47:49 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 15:48:26 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 15:48:26 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 16:57:17 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 16:57:19 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:06:59 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:07:00 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:07:01 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:07:07 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:07:21 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:07:54 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:07:58 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:07:59 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:08:00 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[15-May-2022 21:08:00 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/autoviet/public_html/auth/admin/SETTING_WEBSITE.PHP on line 2451
+[30-May-2022 21:36:07 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 12:01:28 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 12:01:31 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 12:07:48 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 12:37:02 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 12:43:08 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 13:52:27 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 13:52:36 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 13:52:43 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 13:52:46 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 13:52:48 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 13:52:54 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 17:30:16 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 17:30:17 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 17:30:18 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 17:30:18 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 17:30:25 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 17:30:26 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 17:30:28 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 17:30:28 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 18:56:08 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 19:16:12 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[31-May-2022 19:27:51 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[01-Jun-2022 11:20:14 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[01-Jun-2022 11:20:15 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70
+[01-Jun-2022 11:20:30 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<' in /home/trumsubr/public_html/auth/admin/SETTING_ADD_DICHVU.php on line 70

@@ -1,0 +1,52 @@
+.section-screen-main {
+    background: url(/assets/images/main-bg.svg) 50% 0 no-repeat;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    position: relative;
+}
+
+.main-menu .current, .main-menu .current-menu-item {
+    color: #FB5472;
+}
+.main-menu a {
+    color: #646A89;
+    position: relative;
+    padding: 0.5rem 0;
+    display: inline-block;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.header.fixed {
+    -webkit-box-shadow: 0px 0.2rem 0.4rem rgb(0 0 0 / 6%), 0px 0.4rem 0.6rem rgb(0 0 0 / 10%);
+    box-shadow: 0px 0.2rem 0.4rem rgb(0 0 0 / 6%), 0px 0.4rem 0.6rem rgb(0 0 0 / 10%);
+    background: rgba(255, 255, 255, 0.99);
+}
+
+body:not(.loaded) .h-decor-1:after, body:not(.loaded) .h-decor-2:after {
+    background: url(/assets/images/leaf-right.svg) no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+body:not(.loaded) .h-decor-1:before, body:not(.loaded) .h-decor-3:before {
+    background: url(/assets/images/leaf-left.svg) no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

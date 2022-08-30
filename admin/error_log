@@ -1,0 +1,29 @@
+[28-Jan-2022 04:28:02 UTC] PHP Notice:  Undefined variable: NTD in /home/nguyenti35/public_html/admin_site/index.php on line 6
+[28-Jan-2022 04:28:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUsers() on null in /home/nguyenti35/public_html/admin_site/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nguyenti35/public_html/admin_site/index.php on line 6
+[28-Jan-2022 04:41:10 UTC] PHP Notice:  Undefined variable: NTD in /home/nguyenti35/public_html/admin_site/head.php on line 27
+[28-Jan-2022 04:41:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUsers() on null in /home/nguyenti35/public_html/admin_site/head.php:27
+Stack trace:
+#0 /home/nguyenti35/public_html/admin_site/set_user.php(2): require()
+#1 {main}
+  thrown in /home/nguyenti35/public_html/admin_site/head.php on line 27
+[28-Jan-2022 04:41:21 UTC] PHP Notice:  Undefined variable: NTD in /home/nguyenti35/public_html/admin_site/head.php on line 27
+[28-Jan-2022 04:41:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUsers() on null in /home/nguyenti35/public_html/admin_site/head.php:27
+Stack trace:
+#0 /home/nguyenti35/public_html/admin_site/set_user.php(2): require()
+#1 {main}
+  thrown in /home/nguyenti35/public_html/admin_site/head.php on line 27
+[28-Jan-2022 04:41:30 UTC] PHP Notice:  Undefined variable: NTD in /home/nguyenti35/public_html/admin_site/head.php on line 27
+[28-Jan-2022 04:41:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUsers() on null in /home/nguyenti35/public_html/admin_site/head.php:27
+Stack trace:
+#0 /home/nguyenti35/public_html/admin_site/set_user.php(2): require()
+#1 {main}
+  thrown in /home/nguyenti35/public_html/admin_site/head.php on line 27
+[28-Jan-2022 04:41:35 UTC] PHP Notice:  Undefined variable: NTD in /home/nguyenti35/public_html/admin_site/head.php on line 27
+[28-Jan-2022 04:41:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getUsers() on null in /home/nguyenti35/public_html/admin_site/head.php:27
+Stack trace:
+#0 /home/nguyenti35/public_html/admin_site/set_user.php(2): require()
+#1 {main}
+  thrown in /home/nguyenti35/public_html/admin_site/head.php on line 27

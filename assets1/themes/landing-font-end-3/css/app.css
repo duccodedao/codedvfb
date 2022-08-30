@@ -1,0 +1,20 @@
+.logo__img{width:45px;height:51px;
+
+-webkit-background-size:contain;background-size:contain;background-position:center;background-repeat:no-repeat;margin-right:13px}
+.btn-sign-in2 {
+    width: 180px;
+    height: 40px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #48a9bf;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    white-space: nowrap;
+    margin-right: 22px;
+}
